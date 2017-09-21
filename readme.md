@@ -1,7 +1,4 @@
-### Python
+## python-projects
+Simple projects built in python to become familiar with the language and test out new things!
 
----
-
-Soon there will be a description of the BlackJack file.
-
-Thank you @mrmichaelgallen! Getting this setup very soon so it looks better. 
+Thank you [@mrmichaelgallen](https://github.com/mrmichaelgallen/) for the one day class on python and getting me started with the language!
