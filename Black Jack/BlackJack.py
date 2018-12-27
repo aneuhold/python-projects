@@ -1,6 +1,6 @@
 import random
 
-deck = range(1,53)
+deck = list(range(1,53))
 
 def shuffleDeck():
     random.shuffle(deck)
@@ -129,9 +129,9 @@ gameOver = False
 
 def checkOrHitFunc():
     global gameOver
-    checkOrHit = raw_input("Check or hit?:")
+    checkOrHit = input("Check or hit?:")
     while not(checkOrHit.lower() == "hit" or checkOrHit.lower() == "check"):
-        checkOrHit = raw_input("Please enter \"Check\" or \"Hit\": ")
+        checkOrHit = input("Please enter \"Check\" or \"Hit\": ")
 
     if checkOrHit.lower() == "hit":
         playerHand.append(deck[0])
@@ -152,4 +152,3 @@ def checkOrHitFunc():
 
 while gameOver == False:
     checkOrHitFunc()
-
